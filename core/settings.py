@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'authentication',
     'rest_framework.authtoken',
+    'rest_framework_simplejwt.token_blacklist',  # تفعيل دعم القائمة السوداء للتوكنات
+
 ]
 
 AUTH_USER_MODEL = 'authentication.User'
